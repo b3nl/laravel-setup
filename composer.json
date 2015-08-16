@@ -1,0 +1,33 @@
+{
+    "name": "b3nl/laravel-setup",
+    "description": "An installation manager for a laravel project.",
+    "keywords": ["framework", "laravel", "setup", "install"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.1.*"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.0",
+        "phpspec/phpspec": "~2.1"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "b3nl\\Setup\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
