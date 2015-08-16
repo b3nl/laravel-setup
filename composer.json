@@ -19,7 +19,7 @@
             "database"
         ],
         "psr-4": {
-            "b3nl\\Setup\\": "app/"
+            "b3nl\\LSetup\\": "app/"
         }
     },
     "autoload-dev": {
