@@ -1,0 +1,26 @@
+{
+  "name": "laravel-setup",
+  "version": "0.0.1",
+  "homepage": "https://github.com/b3nl/laravel-setup",
+  "description": "Setup package for Laravel projects.",
+  "keywords": [
+    "laravel",
+    "setup"
+  ],
+  "authors": [
+    "b3nl <code@b3nl.de>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-apps": "~1.1.0",
+    "jquery": "~2.1.4"
+  }
+}
