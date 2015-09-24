@@ -13,10 +13,10 @@ setupControllers.controller(
 
 				$http.get( "/setup/config" ).then( function( response ) {
 					angular.forEach( response.data, function( field, key ) {
-						console.log( field );
-						$scope.config[ key ] = field.value;
+						$scope.config[ key ] = field.value || field.default;
 
 						$scope.configFields.push( {
+							defaultValue: field.default,
 							"key": key,
 							type: "input",
 							templateOptions: {

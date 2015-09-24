@@ -31,6 +31,7 @@ var paths = {
     ],
     // These files include Foundation for Apps and its dependencies
     foundationJS: [
+        'resources/assets/bower_components/jquery/dist/jquery.js',
         'resources/assets/bower_components/fastclick/lib/fastclick.js',
         'resources/assets/bower_components/viewport-units-buggyfill/viewport-units-buggyfill.js',
         'resources/assets/bower_components/tether/tether.js',
@@ -40,10 +41,13 @@ var paths = {
         'resources/assets/bower_components/angular-ui-router/release/angular-ui-router.js',
         'resources/assets/bower_components/foundation-apps/js/vendor/**/*.js',
         'resources/assets/bower_components/foundation-apps/js/angular/**/*.js',
+        'resources/assets/bower_components/api-check/dist/api-check.js',
+        'resources/assets/bower_components/angular-formly/dist/formly.js',
         '!resources/assets/bower_components/foundation-apps/js/angular/app.js'
     ],
     // These files are for your app's JavaScript
     appJS: [
+        'resources/assets/client/assets/js/controllers.js',
         'resources/assets/client/assets/js/app.js'
     ]
 }

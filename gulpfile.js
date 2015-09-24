@@ -44,5 +44,8 @@ elixir(function (mix) {
         .task('replaceIconicPath', 'public/setup/assets/js/foundation.js')
         .task('replaceTemplatePaths', 'resources/assets/client/templates/**/*.html');
 
-    mix.version(['setup/assets/css/app.css', 'setup/assets/js/app.js', 'setup/assets/js/foundation.js', 'setup/assets/js/routes.js', 'setup/assets/js/templates.js']);
+    mix.version([
+        'setup/assets/css/app.css', 'setup/assets/js/app.js', 'setup/assets/js/foundation.js',
+        'setup/assets/js/routes.js', 'setup/assets/js/templates.js'
+    ]);
 });

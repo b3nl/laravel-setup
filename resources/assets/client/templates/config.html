@@ -1,0 +1,16 @@
+---
+controller: ConfigCtrlr
+name: config
+url: /config
+foo: bar
+---
+
+<h1>Config</h1>
+
+<formly-form model="config" fields="configFields" root-el="form">
+    <div class="grid-block">
+        <div class="grid-content">
+            <button type="submit" class="button success" ng-click="submit()">Submit</button>
+        </div>
+    </div>
+</formly-form>
