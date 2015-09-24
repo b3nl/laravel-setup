@@ -9,5 +9,7 @@
   "undef": true,
   "unused": true,
   "node": true,
-  "globals": {}
+  "globals": {
+    "angular": false
+  }
 }
